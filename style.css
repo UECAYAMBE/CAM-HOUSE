@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Anek+Devanagari:wdth,wght@90.2,100..800&family=Dancing+Script:wght@400..700&family=Jersey+10&family=NTR&family=Pacifico&family=Teko:wght@300..700&display=swap');
+*{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+.gif{
+  position: absolute;
+  right: 100;
+  bottom: 100;
+  z-index: -1;
+  filter: brightness(50%);
+  opacity: 0.2;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000 ;
+}
+.imgen{
+  margin: 10px;
+    width: 310px; /* Ancho del menú */
+    height: 125px; /* Altura completa del menú */
+    background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+    border-radius: 16px;
+    border: 2px solid #ffffff36;
+    border: 2px solid #00ff88;
+  box-shadow: 0 0 20px #00ff88;
+
+}
+
+.imgen img{
+  display: block;
+    margin: 0 auto;
+    padding: 11px;
+}
+.menu {
+    margin: 10px;
+    width: 310px; /* Ancho del menú */
+    height: 363px ; /* Altura completa del menú */
+    background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+    border-radius: 16px;
+    position: right; /* Fijar el menú en la posición */
+    left: 20; /* Alinear el menú a la izquierda */
+    top: 0; /* Alinear el menú en la parte superior */
+    padding-top: 20px; /* Espaciado superior */
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    min-width: none;
+    min-height: 6px;
+    background-position:center bottom;
+    border: 2px solid #88ff00;
+  box-shadow: 0 0 25px #88ff00;
+}
+
+.menu ul {
+    list-style: none; /* Quitar viñetas de la lista */
+    padding: 0;
+    color: #d0ff00;
+    text-align: center;
+}
+.menu ul p{
+  text-shadow: 0 0 20px rgb(145, 255, 0), 0 0 20px rgb(145, 255, 0), 0 0 20px rgb(145, 255, 0);
+}
+.menu li {
+    padding: 35px;
+    margin: 5px;
+    text-align: left;
+  }
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu li a:hover { 
+    background-color: rgb(115, 255, 0);
+    color: #000;
+    box-shadow: 0 0 30px  rgb(115, 255, 0);
+  }
+  .contenido{
+      margin: 10px;
+      width: 590px; /* Ancho del menú */
+      height: 505px; /* Altura completa del menú */
+      background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+      border-radius: 16px;
+      position: absolute;
+      top: 0;
+      right: 265px;
+
+      border: 2px solid #ff002b;
+    box-shadow: 0 0 25px #ff002b;
+  }
+  
+  .intro{
+    margin: 10px;
+    width: 253px; /* Ancho del menú */
+    height: 300px; /* Altura completa del menú */
+    background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    right: 00px;
+    border: 2px solid #2f00ff;
+      box-shadow: 0 0 30px #2f00ff;
+}
+.int{
+  font-size: 13.2px;
+  font-weight: 800;
+  text-align: center;
+  color: #ff3c00;
+  text-shadow: 0 0 25px #ff3c00, 0 0 2px #ff3c00, 0 0 2px #ff3c00;
+  transition: transform 0.3s ease, color 0.3s ease;
+  
+}
+.letras{
+  margin: 3px;
+  font-size: 14.3px;
+  text-align: justify;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+ 
+ 
+}
+.objetivo{
+  margin: 320px;
+  width: 253px; /* Ancho del menú */
+  height: 215px; /* Altura completa del menú */
+  background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  right: -310px;
+  border: 2px solid #ff5e00;
+  box-shadow: 0 0 15px #ff5e00;
+}
+
+.vison{
+  margin: 547px;
+  width: 385px; /* Ancho del menú */
+  height: 270px; /* Altura completa del menú */
+  background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  right: -137px;
+  border: 2px solid #0066ff;
+  box-shadow: 0 0 15px #0066ff;
+
+}
+
+.conclusion {
+  margin: 547px;
+  width: 393px; /* Ancho del menú */
+  height: 270px; /* Altura completa del menú */
+  background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  right: -541px;
+  border: 2px solid #d9ff00;
+  box-shadow: 0 0 15px #d9ff00;
+}
+
+.con-inte {
+  margin: 830px;
+  width: 1195px; /* Ancho del menú */
+  height: 527px; /* Altura completa del menú */
+  background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+  border-radius: 16px;
+  position: absolute;
+  top: 00;
+  right: -820px;
+  border: 2px solid #0400ff;
+  box-shadow: 0 0 15px #0400ff;
+}
+
+.mision{
+  margin: 547px;
+  width: 400px; /* Ancho del menú */
+  height: 270px; /* Altura completa del menú */
+  background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+  border-radius: 16px;
+  position: absolute;
+  top: 0;
+  right: 257px;
+  border: 2px solid #9900ff;
+  box-shadow: 0 0 15px #9900ff;
+
+}
+
+.imgi{
+  display: block;
+  margin: 0 auto;
+    padding: 0.5px;
+}
+.hr{
+  box-shadow: 0 0 25px #0066ff;
+}
+.hr1{
+  box-shadow: 0 0 20px #ff9900;
+}
+.hr2{
+  box-shadow: 0 0 25px #0066ff;
+}
+.hr3{
+  box-shadow: 0 0 20px #9900ff;
+}
+.hr4{
+  box-shadow: 0 0 20px #fffb00;
+}
+
+.letras:hover  {
+  transform: scale(1.01); /* Aplica el efecto de zoom (aumenta un 20%) */
+  color: rgb(123, 255, 0); /* Cambia el color del texto durante el zoom */
+}
+
+.int:hover {
+  transform: scale(1.02); /* Aplica el efecto de zoom (aumenta un 20%) */
+  color: #00ffdd;
+  text-shadow: 0 0 25px #00ffdd, 0 0 2px #00ffdd, 0 0 2px #00ffdd;
+}
+.fil {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px; /* Espacio entre filas */
+}
+.fil img {
+  margin-right: 170px; /* Espacio entre imágenes */
+}
+.fil p{
+  margin: 18px;
+  margin-right: 205px; /* Espacio entre imágenes */
+}
+.fil img {
+  transition: transform 0.3s ease; /* Agrega una transición suave al movimiento */
+}
+.fil img:hover {
+  transform: translateX(2px) translateY(-10px); /* Mueve la imagen 10px hacia abajo y 10px hacia la derecha */
+}
+.int1{
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  color:rgb(123, 255, 0);
+  text-shadow: 0 0 25px rgb(123, 255, 0), 0 0 2px rgb(123, 255, 0), 0 0 2px rgb(123, 255, 0);
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.int1:hover {
+  transform: scale(1.02); /* Aplica el efecto de zoom (aumenta un 20%) */
+  color: #00ffdd;
+  text-shadow: 0 0 25px #00ffdd, 0 0 2px #00ffdd, 0 0 2px #00ffdd;
+
+}
+.logo{
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+.logo img {
+  
+  margin-right: 17px; /* Espacio entre imágenes */
+}
+.logo img {
+  transition: transform 0.3s ease; /* Agrega una transición suave al movimiento */
+}
+.logo img:hover {
+  transform: translateX(2px) translateY(-10px); /* Mueve la imagen 10px hacia abajo y 10px hacia la derecha */
+}
+.contenido{
+ 
+  
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+
+}
+.contenido img {
+  margin-right: 17px;
+  transition: transform 0.3s ease; /* Agrega una transición suave al movimiento */
+  border-radius: 5px; /* Bordes redondeados con un radio de 15px */
+}
+.contenido img:hover {
+  transform: translateX(2px) translateY(-10px); /* Mueve la imagen 10px hacia abajo y 10px hacia la derecha */
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Anek+Devanagari:wdth,wght@90.2,100..800&family=Dancing+Script:wght@400..700&family=Jersey+10&family=NTR&family=Pacifico&family=Teko:wght@300..700&display=swap');
+*{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+.gif{
+  position: absolute;
+  right: 100;
+  bottom: 100;
+  z-index: -1;
+  filter: brightness(50%);
+  opacity: 0.2;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000 ;
+}
+.imgen{
+  margin: 10px;
+    width: 270px; /* Ancho del menú */
+    height: 125px; /* Altura completa del menú */
+    background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+    border-radius: 16px;
+    border: 2px solid #00ff88;
+    box-shadow: 0 0 20px #00ff88;
+}
+.imgen img{
+  display: block;
+    margin: 0 auto;
+    padding: 11px;
+}
+.menu {
+    margin: 10px;
+    width: 270px; /* Ancho del menú */
+    height: 100; /* Altura completa del menú */
+    background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+    border-radius: 16px;
+    position: right; /* Fijar el menú en la posición */
+    left: 20; /* Alinear el menú a la izquierda */
+    top: 0; /* Alinear el menú en la parte superior */
+    padding-top: 20px; /* Espaciado superior */
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    min-width: none ;
+    min-height: 6px;
+    background-position:center bottom;
+    border: 2px solid #88ff00;
+    box-shadow: 0 0 20px #88ff00;
+}
+.menu ul {
+    list-style: none; /* Quitar viñetas de la lista */
+    padding: 0;
+    color: #d0ff00;
+    text-align: center;
+}
+.menu ul p{
+  text-shadow: 0 0 20px rgb(145, 255, 0), 0 0 20px rgb(145, 255, 0), 0 0 20px rgb(145, 255, 0);
+}
+.menu li {
+    padding: 35px;
+    margin: 5px;
+    text-align: left;
+  }
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu li a:hover {
+    background-color: rgb(115, 255, 0);
+    color: #000;
+    box-shadow: 0 0 20px rgb(115, 255, 0);
+  }
+  .video{
+    margin: 10px;
+      width: 917px; /* Ancho del menú */
+      height: 524px; /* Altura completa del menú */
+      background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+      border-radius: 16px;
+      position: absolute;
+      top: 0;
+      right:-2px;
+      border: 2px solid #ff7b00;
+  box-shadow: 0 0 20px #ff7b00ff;
+  }
+  .video p {
+    text-align: center;
+    color: #fff;
+}
+.ima{
+  margin: 550px;
+    width: 1195px; /* Ancho del menú */
+    height: 335px; /* Altura completa del menú */
+    background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    right: -539px;
+    border: 2px solid #00e1ff;
+  box-shadow: 0 0 20px #00e1ff;
+}
+.ima p {
+  text-align: center;
+  color: #fff;
+}
+.con-inte {
+  margin: 897px;
+  width: 1195px; /* Ancho del menú */
+  height: 527px; /* Altura completa del menú */
+  background-color: rgba(255, 255, 255, 0.055); /* Color de fondo del menú */
+  border-radius: 16px;
+  position: absolute;
+  top: 00;
+  right: -887px;
+  border: 2px solid #0400ff;
+  box-shadow: 0 0 20px #0400ff;
+}
+
+
+.fil {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0px; /* Espacio entre filas */
+}
+.fil img {
+  margin-right: 170px; /* Espacio entre imágenes */
+}
+.fil p{
+  margin: 18px;
+  margin-right: 205px; /* Espacio entre imágenes */
+}
+.fil img {
+  transition: transform 0.3s ease; /* Agrega una transición suave al movimiento */
+}
+.fil img:hover {
+  transform: translateX(2px) translateY(-10px); /* Mueve la imagen 10px hacia abajo y 10px hacia la derecha */
+}
+.int1{
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  color:rgb(123, 255, 0);
+  text-shadow: 0 0 25px rgb(123, 255, 0), 0 0 2px rgb(123, 255, 0), 0 0 2px rgb(123, 255, 0);
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.int1:hover {
+  transform: scale(1.02); /* Aplica el efecto de zoom (aumenta un 20%) */
+  color: #00ffdd;
+  text-shadow: 0 0 25px #00ffdd, 0 0 2px #00ffdd, 0 0 2px #00ffdd;
+
+}
+.logo{
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+.logo img {
+  
+  margin-right: 17px; /* Espacio entre imágenes */
+}
+.logo img {
+  transition: transform 0.3s ease; /* Agrega una transición suave al movimiento */
+}
+.logo img:hover {
+  transform: translateX(2px) translateY(-10px); /* Mueve la imagen 10px hacia abajo y 10px hacia la derecha */
+}
+.contenido{
+  justify-content: center;
+  display: flex;
+  margin: 2px;
+  padding: 5px;
+  align-items: center;
+
+}
+.contenido img {
+  margin-right: 17px;
+  transition: transform 0.3s ease; /* Agrega una transición suave al movimiento */
+  border-radius: 5px; /* Bordes redondeados con un radio de 15px */
+}
+.contenido img:hover {
+  transform: translateX(2px) translateY(-10px); /* Mueve la imagen 10px hacia abajo y 10px hacia la derecha */
+}
